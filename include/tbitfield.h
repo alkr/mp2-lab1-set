@@ -9,9 +9,9 @@
 #define __BITFIELD_H__
 
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
-
+#define sz (sizeof(TELEM)*8)
 typedef unsigned int TELEM;
 
 class TBitField
