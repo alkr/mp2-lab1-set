@@ -92,7 +92,7 @@ TSet TSet::operator+(const int Elem) // объединение с элемент
 		aa.SetBit(Elem);
 		TSet bb(aa);
 		return bb;
-}
+	}}
 
 TSet TSet::operator-(const int Elem) // разность с элементом
 {
@@ -105,7 +105,7 @@ TSet TSet::operator-(const int Elem) // разность с элементом
 		TSet bb(aa);
 		return bb;
  
-}
+	}}
 
 TSet TSet::operator*(const TSet &s) // пересечение
 { 
