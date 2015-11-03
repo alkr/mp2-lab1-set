@@ -133,8 +133,10 @@ TBitField TBitField::operator~(void) // отрицание
 	TBitField aa(BitLen);
 for (int i=0;i<MemLen; i++)
   aa.pMem[i]=~pMem[i];
+
 int n = BitLen % sz;
-  int k=1;
+
+int k=1;
   for (int i=0;i<n;i++)
 	   k*=2;
   k-=1;
